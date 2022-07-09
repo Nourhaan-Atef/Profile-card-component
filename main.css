@@ -1,0 +1,68 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  background-image: url(images/bg-pattern-top.svg);
+  background-color: hsl(185, 75%, 39%);
+}
+
+main {
+  margin: 150px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 10px 20px 2px hsl(227, 10%, 46%);
+}
+main .card {
+  width: 350px;
+  border-radius: 10px;
+}
+main .card .top svg {
+  border-radius: 10px 10px 0 0;
+}
+main .card .middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .card .middle img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -60px;
+}
+main .card .middle h3 {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+main .card .middle h3 span,
+main .card .middle p {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+hr {
+  border: -1px solid hsl(0, 0%, 59%);
+}
+main .card .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 15px;
+}
+main .card .bottom h4 {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+main .card .bottom p {
+  margin-top: 5px;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  font-size: 14px;
+}
