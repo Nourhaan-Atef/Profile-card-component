@@ -11,6 +11,12 @@ body {
   background-color: hsl(185, 75%, 39%);
 }
 
+h2 {
+  color: #fff;
+  background-color: rgb(174, 80, 88);
+  padding: 10px 50px;
+  border-radius: 10px;
+}
 main {
   margin: 100px auto;
   background-color: #fff;
